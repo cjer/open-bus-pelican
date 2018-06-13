@@ -48,7 +48,7 @@
   --border-radius: 0.2rem;
 
   /* Basics */
-  --background-color: #2f363f;
+  --background-color: #22324B;
   --color: #dcdcdc;
   --line-color: #405363;
   --link-color: #5b9dd9;
@@ -79,7 +79,7 @@
   /* Footer */
   --footer-font-size: 0.85rem;
   --footer-color: #c5c5c5;
-  --footer-background-color: #444e5c;
+  --footer-background-color: #425E83;
   --footer-link-color: #ffffff;
   --footer-link-active-color: #a5c9ea;
 
@@ -97,13 +97,13 @@
   --navpanel-link-active-color: #a5c9ea;
 
   /* Plots */
-  --plot-background-color: #34424d;
+  --plot-background-color: #324A6A;
   --plot-error-color: #ffffff;
 
   /* Colored components */
   --default-color: #dcdcdc;
   --default-filled-color: #dcdcdc;
-  --default-filled-background-color: #34424d;
+  --default-filled-background-color: #324A6A;
   --default-filled-link-color: #5b9dd9;
   --default-filled-link-active-color: #a5c9ea;
   --default-button-active-color: #a5c9ea;

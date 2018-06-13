@@ -12,7 +12,7 @@ OpenBus
 
             .. raw:: html
 
-                <h1>bus.open()</h1>
+                <h1 dir="ltr">bus.open()</h1>
 
             
             פותחים לאוטובוסים את הצורה
