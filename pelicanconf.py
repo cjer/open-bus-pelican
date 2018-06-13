@@ -14,13 +14,18 @@ PAGE_PATHS = ['']
 
 TIMEZONE = 'Asia/Jerusalem'
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = 'he'
 
+LOCALE = ['he_IL.UTF-8',]
+
+DEFAULT_DATE_FORMAT = '%A %d %B, %Y'
+'''
 import platform
 if platform.system() == 'Windows':
     DATE_FORMATS = {'en': ('usa', '%b %d, %Y')}
 else:
     DATE_FORMATS = {'en': ('en_US.UTF-8', '%b %d, %Y')}
+'''
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -47,7 +52,7 @@ STATIC_PATHS = ['static']
 
 STATIC_URL = '{path}'
 
-M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600',
+M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Alef:400,400i,600,600i%7CSource+Code+Pro:400,400i,600',
                '/static/m-dark.css']
 M_THEME_COLOR = '#22272e'
 
@@ -60,6 +65,7 @@ M_BLOG_URL = 'blog/'
 M_SITE_LOGO_TEXT = 'OpenBus'
 
 M_LINKS_NAVBAR1 = [('למה?', 'why/', 'why', []),
+                   ('קוד', 'code/', 'code', []),
                    ('כלים', 'tools/', 'tools', [
                    		('דירוגובוס', 'tools/buscore/', ''),
                    		('אוטונגישות', 'tools/accessibility/', '')
@@ -86,7 +92,7 @@ M_LINKS_FOOTER3 = [('צור קשר', ''),
                    ('googlegroup', 'https://groups.google.com/forum/#!forum/openbus-israel'),]
 
 M_FINE_PRINT = """
-OpenBus. Copyright © `EMAIL <mailto:filler@email.address>`_, 2018. All rights
+OpenBus. No copyright © No `email <mailto:filler@email.address>`_, 2018. No rights
 reserved.
 """
 
@@ -98,7 +104,7 @@ PAGINATED_DIRECT_TEMPLATES = ['archives']
 
 FORMATTED_FIELDS = ['summary', 'description', 'landing', 'badge', 'header', 'footer']
 
-M_NEWS_ON_INDEX = ("Latest news on our blog", 3)
+M_NEWS_ON_INDEX = ("חם מהתנור", 3)
 
 M_METADATA_AUTHOR_PATH = 'blog/authors'
 M_METADATA_CATEGORY_PATH = 'blog/categories'
@@ -111,7 +117,7 @@ PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 ARCHIVES_URL = 'blog/'
 ARCHIVES_SAVE_AS = 'blog/index.html'
-ARTICLE_URL = '{slug}/' # category is part of the slug (i.e., examples)
+ARTICLE_URL = '{slug}/' 
 ARTICLE_SAVE_AS = '{slug}/index.html'
 AUTHOR_URL = 'author/{slug}/'
 AUTHOR_SAVE_AS = 'author/{slug}/index.html'

@@ -1,12 +1,12 @@
-example article
+פוסט לדוגמא
 ###############
 
 :date: 2018-06-08 08:28
-:category: stuff
-:tags: cool, article, mine
-:summary: This article has a cool summary.
+:category: דברים
+:tags: מגניב, מאמר, אני
+:summary: לפוסט הזה יש סיכום מגניב
 
-This article has not only cool summary, but also has cool contents. Lorem?
-*Ipsum.* `Hi, simplistic! <http://simplistic.me>`_  
+למאמר הזה אין רק סיכום מגניב? יש לו גם תוכן מגניב. *כן*
+`Hi, simplistic! <http://simplistic.me>`_  
 
-WHAT?
+מה?

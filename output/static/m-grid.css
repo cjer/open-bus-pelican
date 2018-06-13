@@ -44,6 +44,7 @@ body { margin: 0; }
   display: table;
 }
 [class*='m-col-'] {
+  direction: rtl;
   position: relative;
   padding: 1rem;
 }
